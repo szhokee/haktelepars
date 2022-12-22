@@ -1,0 +1,52 @@
+requests
+lxml
+beautifulsoup4
+pyTelegramBotAPI
+
+# import telebot
+
+# from parsing import main
+# from my_token import token
+
+# bot = telebot.TeleBot(token)
+
+# numbers_keyboard = telebot.types.ReplyKeyboardMarkup()
+
+# b1 = telebot.types.KeyboardButton('1')
+# b2 = telebot.types.KeyboardButton('2')
+# b3 = telebot.types.KeyboardButton('3')
+# b4 = telebot.types.KeyboardButton('4')
+# b5 = telebot.types.KeyboardButton('5')
+# b6 = telebot.types.KeyboardButton('6')
+# b7 = telebot.types.KeyboardButton('7')
+# b8 = telebot.types.KeyboardButton('8')
+# b9 = telebot.types.KeyboardButton('8')
+# b10 = telebot.types.KeyboardButton('10')
+
+# numbers_keyboard.add(b1,b2, b3, b4, b5, b6, b7, b8, b9, b10)
+
+
+# @bot.message_handler(commands=['start'])
+# def start(message):
+#     bot.send_message(message.chat.id, 'Helloy to News')
+
+#     data = main()   #[[title, image, description, [] ]]
+
+#     count_ = 0
+#     for i in data:
+#         count_ += 1
+#         bot.send_message(message.chat.id, str(count_) + '. ' + i[0])
+
+#     for i in data:
+#         bot.send_message(message.chat.id, i[0])
+
+
+#     msg = bot.send_message(message.chat.id, 'Какую новости хотите', reply_markup=numbers_keyboard)
+
+
+
+
+
+# bot.polling()
+
+ 
